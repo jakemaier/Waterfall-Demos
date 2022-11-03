@@ -400,7 +400,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/UTech/MG-Karting
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/dmaier/My project
+  m_LastProjectPath: /Users/jakemaier/Documents/GitHub/Waterfall-Demos/My project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
