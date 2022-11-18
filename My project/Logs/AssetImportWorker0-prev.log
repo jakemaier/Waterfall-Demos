@@ -1,0 +1,281 @@
+Unity Editor version:    2021.3.6f1 (7da38d85baf6)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.5 (Build 20G527)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/dmaier/Documents/GitHub/Waterfall-Demos/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52587
+Successfully changed project path to: /Users/dmaier/Documents/GitHub/Waterfall-Demos/My project
+/Users/dmaier/Documents/GitHub/Waterfall-Demos/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 121.96 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 5.81 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/dmaier/Documents/GitHub/Waterfall-Demos/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56190
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.6f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.001009 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 114.79 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1621ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1221ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (873ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (204ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (357ms)
+				ProcessInitializeOnLoadMethodAttributes (192ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010364 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/dmaier/Documents/GitHub/Waterfall-Demos/My project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/dmaier/Documents/GitHub/Waterfall-Demos/My project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 106.13 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.64 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  3.024 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3028ms)
+		BeginReloadAssembly (397ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (48ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (156ms)
+		EndReloadAssembly (2335ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1505ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (1089ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 2.49 ms.
+Unloading 4068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (73.3 KB). Loaded Objects now: 4530.
+Memory consumption went from 277.2 MB to 277.1 MB.
+Total: 3.419375 ms (FindLiveObjects: 0.254458 ms CreateObjectMapping: 0.110500 ms MarkObjects: 2.885250 ms  DeleteObjects: 0.168250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 180174.280021 seconds.
+  path: Assets/Waterfall Particle.jpeg
+  artifactKey: Guid(2d47956fafc914b16b5778f9711c8567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waterfall Particle.jpeg using Guid(2d47956fafc914b16b5778f9711c8567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c4a1521e94abf34438801a52e06a3e') in 0.350325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.426078 seconds.
+  path: Assets/Water 1.mat
+  artifactKey: Guid(8216a2d317e534d00abaa0f915903f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Water 1.mat using Guid(8216a2d317e534d00abaa0f915903f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b199b7886439763a807d84840723cb45') in 0.764058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.292638 seconds.
+  path: Assets/RealWaterfallParticle.jpg
+  artifactKey: Guid(7a0e08a3245234f57929f98b9f409f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RealWaterfallParticle.jpg using Guid(7a0e08a3245234f57929f98b9f409f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61971d086c1fee12647ec40d8e33ba5c') in 0.410759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.467912 seconds.
+  path: Assets/Particle_Waterfall.mat
+  artifactKey: Guid(8216a2d317e534d00abaa0f915903f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle_Waterfall.mat using Guid(8216a2d317e534d00abaa0f915903f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619180a8050b56b6a1d16f6dbc3c7759') in 0.013331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.966337 seconds.
+  path: Assets/Texture_Waterfall.jpg
+  artifactKey: Guid(7a0e08a3245234f57929f98b9f409f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_Waterfall.jpg using Guid(7a0e08a3245234f57929f98b9f409f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8312bb113c6a4b5d45d1b4a53b11cab') in 0.009002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003012 seconds.
+  path: Assets/Particle_Waterfall.mat
+  artifactKey: Guid(8216a2d317e534d00abaa0f915903f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle_Waterfall.mat using Guid(8216a2d317e534d00abaa0f915903f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115e8ae0826e534ee6496cb11e3885e1') in 0.008386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1645.074292 seconds.
+  path: Assets/Untitled-1.jpg
+  artifactKey: Guid(8945a68c57792454292f1f3ddb80fd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Untitled-1.jpg using Guid(8945a68c57792454292f1f3ddb80fd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbceff99fac52dc16753a5bff7c713f') in 0.024095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.931330 seconds.
+  path: Assets/Particle_Waterfall.jpg
+  artifactKey: Guid(8945a68c57792454292f1f3ddb80fd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle_Waterfall.jpg using Guid(8945a68c57792454292f1f3ddb80fd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a287ae21c48ad2c426d9ebf65aa5c66') in 0.008042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.125009 seconds.
+  path: Assets/Texture_Waterfall.mat
+  artifactKey: Guid(782dccbd3a3784baf95111ac3c42566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_Waterfall.mat using Guid(782dccbd3a3784baf95111ac3c42566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9807badc074c3ccff8df262e68d47638') in 0.010507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.409436 seconds.
+  path: Assets/Texture_Waterfall.jpg
+  artifactKey: Guid(8945a68c57792454292f1f3ddb80fd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_Waterfall.jpg using Guid(8945a68c57792454292f1f3ddb80fd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e116b1ef822f9c9ce003449bba6f5b') in 0.012446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/Texture_Waterfall.mat
+  artifactKey: Guid(782dccbd3a3784baf95111ac3c42566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texture_Waterfall.mat using Guid(782dccbd3a3784baf95111ac3c42566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1170b70a32d6b0ebfb41481fbf0e26ac') in 0.007481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.879087 seconds.
+  path: Assets/Particle_Waterfall.mat
+  artifactKey: Guid(782dccbd3a3784baf95111ac3c42566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle_Waterfall.mat using Guid(782dccbd3a3784baf95111ac3c42566e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2628bc87ad33c0c2a947269fb1d0ec') in 0.007773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 313.793254 seconds.
+  path: Assets/water_texture.png
+  artifactKey: Guid(36fc0517b61ea4848a90049e589e751d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/water_texture.png using Guid(36fc0517b61ea4848a90049e589e751d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31b6d333be7d777a0a92c5a92c2222d') in 0.490946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.230138 seconds.
+  path: Assets/water_particle.mat
+  artifactKey: Guid(536de190754674d9a9a17fe03a0dbf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/water_particle.mat using Guid(536de190754674d9a9a17fe03a0dbf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053a38b9bc03001d9257a61e375e42fb') in 0.010837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.434613 seconds.
+  path: Assets/water_material.mat
+  artifactKey: Guid(560bb9d6e16a44c6a82d72c0a5e237d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/water_material.mat using Guid(560bb9d6e16a44c6a82d72c0a5e237d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497b8100b5de68320827b353f1f413cc') in 0.013029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 984.793554 seconds.
+  path: Assets/Untitled-2.jpg
+  artifactKey: Guid(c794de42fc6744c10b29854c2c109153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Untitled-2.jpg using Guid(c794de42fc6744c10b29854c2c109153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c999f1a97f05a3df7c838f03a87a31cf') in 0.026882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.966645 seconds.
+  path: Assets/Exp_Texture_Water.jpg
+  artifactKey: Guid(c794de42fc6744c10b29854c2c109153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exp_Texture_Water.jpg using Guid(c794de42fc6744c10b29854c2c109153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9fa3d18827db5ddf9b1d13061a6312') in 0.013988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.460324 seconds.
+  path: Assets/Exp_Particle_Water.mat
+  artifactKey: Guid(c946b2114e81e42408eaef81a8e889f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Exp_Particle_Water.mat using Guid(c946b2114e81e42408eaef81a8e889f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9215199b816bac3768be3a41a53c2a9') in 0.012808 seconds 
